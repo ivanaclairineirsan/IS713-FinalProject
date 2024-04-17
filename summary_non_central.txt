@@ -1,0 +1,37 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:           resale_price   R-squared:                       0.652
+Model:                            OLS   Adj. R-squared:                  0.652
+Method:                 Least Squares   F-statistic:                 3.149e+04
+Date:                Thu, 18 Apr 2024   Prob (F-statistic):               0.00
+Time:                        01:18:03   Log-Likelihood:            -2.1420e+06
+No. Observations:              168233   AIC:                         4.284e+06
+Df Residuals:                  168222   BIC:                         4.284e+06
+Df Model:                          10                                         
+Covariance Type:            nonrobust                                         
+==========================================================================================
+                             coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------
+Intercept              -2.944e+04   5389.954     -5.463      0.000      -4e+04   -1.89e+04
+flat_type[T.3 room]     5.882e+04   4629.117     12.707      0.000    4.97e+04    6.79e+04
+flat_type[T.4 room]     1.339e+05   4638.800     28.857      0.000    1.25e+05    1.43e+05
+flat_type[T.5 room]     2.073e+05   4661.294     44.471      0.000    1.98e+05    2.16e+05
+flat_type[T.executive]  2.965e+05   4725.740     62.747      0.000    2.87e+05    3.06e+05
+covid                   2.191e+04    514.935     42.558      0.000    2.09e+04    2.29e+04
+central_marker          3.056e-10   7.56e-12     40.399      0.000    2.91e-10     3.2e-10
+rental_price             144.6534      0.912    158.688      0.000     142.867     146.440
+cement                 -1165.4419     35.602    -32.735      0.000   -1235.222   -1095.662
+concreting_sand        -1556.4320     84.006    -18.528      0.000   -1721.082   -1391.782
+granite                 3759.3304    249.009     15.097      0.000    3271.278    4247.383
+steel                    115.2344      1.452     79.346      0.000     112.388     118.081
+==============================================================================
+Omnibus:                    36494.235   Durbin-Watson:                   0.555
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):           411339.016
+Skew:                           0.723   Prob(JB):                         0.00
+Kurtosis:                      10.522   Cond. No.                     7.68e+19
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is 1.64e-28. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.
