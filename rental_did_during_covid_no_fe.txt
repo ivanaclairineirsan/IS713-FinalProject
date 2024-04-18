@@ -1,0 +1,31 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:           rental_price   R-squared:                       0.232
+Model:                            OLS   Adj. R-squared:                  0.232
+Method:                 Least Squares   F-statistic:                     8290.
+Date:                Fri, 19 Apr 2024   Prob (F-statistic):               0.00
+Time:                        01:50:12   Log-Likelihood:            -1.4358e+06
+No. Observations:              192523   AIC:                         2.872e+06
+Df Residuals:                  192515   BIC:                         2.872e+06
+Df Model:                           7                                         
+Covariance Type:            nonrobust                                         
+===========================================================================================
+                              coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------
+Intercept                1797.9749     15.939    112.804      0.000    1766.735    1829.215
+flat_type[T.3 room]        80.3234     16.010      5.017      0.000      48.945     111.702
+flat_type[T.4 room]       450.8711     15.975     28.224      0.000     419.561     482.181
+flat_type[T.5 room]       586.2227     16.025     36.583      0.000     554.815     617.631
+flat_type[T.executive]    732.8946     16.334     44.869      0.000     700.880     764.909
+in_covid                 -216.4350      3.059    -70.747      0.000    -222.431    -210.439
+central_marker            353.8493      2.930    120.784      0.000     348.107     359.591
+in_covid:central_marker    28.5525      7.907      3.611      0.000      13.055      44.050
+==============================================================================
+Omnibus:                    74184.335   Durbin-Watson:                   0.003
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):           526420.291
+Skew:                           1.688   Prob(JB):                         0.00
+Kurtosis:                      10.364   Cond. No.                         43.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

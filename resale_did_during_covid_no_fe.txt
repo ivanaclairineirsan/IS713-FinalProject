@@ -1,0 +1,35 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:           resale_price   R-squared:                       0.608
+Model:                            OLS   Adj. R-squared:                  0.608
+Method:                 Least Squares   F-statistic:                 3.321e+04
+Date:                Fri, 19 Apr 2024   Prob (F-statistic):               0.00
+Time:                        01:50:10   Log-Likelihood:            -2.4846e+06
+No. Observations:              192523   AIC:                         4.969e+06
+Df Residuals:                  192513   BIC:                         4.969e+06
+Df Model:                           9                                         
+Covariance Type:            nonrobust                                         
+===========================================================================================
+                              coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------
+Intercept               -9.242e+06   3.91e+04   -236.399      0.000   -9.32e+06   -9.17e+06
+flat_type[T.3 room]      6.051e+04   3782.777     15.996      0.000    5.31e+04    6.79e+04
+flat_type[T.4 room]      6.185e+04   4036.746     15.321      0.000    5.39e+04    6.98e+04
+flat_type[T.5 room]      7.997e+04   4382.049     18.250      0.000    7.14e+04    8.86e+04
+flat_type[T.executive]   1.168e+05   4919.683     23.751      0.000    1.07e+05    1.26e+05
+in_covid                -8835.1809    711.654    -12.415      0.000   -1.02e+04   -7440.355
+central_marker           1.806e+05    694.179    260.183      0.000    1.79e+05    1.82e+05
+in_covid:central_marker  4060.5590   1835.794      2.212      0.027     462.447    7658.671
+lease_commence_date      4649.7471     19.272    241.264      0.000    4611.974    4687.521
+floor_area_sqm           3536.8502     32.112    110.142      0.000    3473.912    3599.789
+==============================================================================
+Omnibus:                    20433.425   Durbin-Watson:                   0.382
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            33261.315
+Skew:                           0.763   Prob(JB):                         0.00
+Kurtosis:                       4.348   Cond. No.                     3.52e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 3.52e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
