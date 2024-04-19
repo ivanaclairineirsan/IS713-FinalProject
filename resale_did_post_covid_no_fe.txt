@@ -4,7 +4,7 @@ Dep. Variable:           resale_price   R-squared:                       0.614
 Model:                            OLS   Adj. R-squared:                  0.614
 Method:                 Least Squares   F-statistic:                 3.405e+04
 Date:                Fri, 19 Apr 2024   Prob (F-statistic):               0.00
-Time:                        01:50:11   Log-Likelihood:            -2.4831e+06
+Time:                        10:53:42   Log-Likelihood:            -2.4831e+06
 No. Observations:              192523   AIC:                         4.966e+06
 Df Residuals:                  192513   BIC:                         4.966e+06
 Df Model:                           9                                         
