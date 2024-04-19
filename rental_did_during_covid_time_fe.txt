@@ -1,42 +1,42 @@
 \begin{center}
 \begin{tabular}{lclc}
 \toprule
-\textbf{Dep. Variable:}             &   rental\_price    & \textbf{  R-squared:         }   &      0.5874      \\
-\textbf{Estimator:}                 &      PanelOLS      & \textbf{  R-squared (Between):}  &      0.5992      \\
-\textbf{No. Observations:}          &       186338       & \textbf{  R-squared (Within):}   &      0.1727      \\
-\textbf{Date:}                      &  Fri, Apr 19 2024  & \textbf{  R-squared (Overall):}  &      0.5803      \\
-\textbf{Time:}                      &      14:42:03      & \textbf{  Log-likelihood     }   &    -1.247e+06    \\
+\textbf{Dep. Variable:}             &   rental\_price    & \textbf{  R-squared:         }   &      0.5471      \\
+\textbf{Estimator:}                 &      PanelOLS      & \textbf{  R-squared (Between):}  &      0.6987      \\
+\textbf{No. Observations:}          &       131913       & \textbf{  R-squared (Within):}   &      0.5137      \\
+\textbf{Date:}                      &  Fri, Apr 19 2024  & \textbf{  R-squared (Overall):}  &      0.6896      \\
+\textbf{Time:}                      &      17:09:39      & \textbf{  Log-likelihood     }   &    -8.884e+05    \\
 \textbf{Cov. Estimator:}            &     Unadjusted     & \textbf{                     }   &                  \\
-\textbf{}                           &                    & \textbf{  F-statistic:       }   &     3.79e+04     \\
-\textbf{Entities:}                  &        503         & \textbf{  P-value            }   &      0.0000      \\
-\textbf{Avg Obs:}                   &       370.45       & \textbf{  Distribution:      }   &   F(7,186322)    \\
+\textbf{}                           &                    & \textbf{  F-statistic:       }   &    2.276e+04     \\
+\textbf{Entities:}                  &        489         & \textbf{  P-value            }   &      0.0000      \\
+\textbf{Avg Obs:}                   &       269.76       & \textbf{  Distribution:      }   &   F(7,131899)    \\
 \textbf{Min Obs:}                   &       1.0000       & \textbf{                     }   &                  \\
-\textbf{Max Obs:}                   &       2984.0       & \textbf{  F-statistic (robust):} &     3.79e+04     \\
+\textbf{Max Obs:}                   &       2113.0       & \textbf{  F-statistic (robust):} &    2.276e+04     \\
 \textbf{}                           &                    & \textbf{  P-value            }   &      0.0000      \\
-\textbf{Time periods:}              &         9          & \textbf{  Distribution:      }   &   F(7,186322)    \\
-\textbf{Avg Obs:}                   &      2.07e+04      & \textbf{                     }   &                  \\
-\textbf{Min Obs:}                   &     1.678e+04      & \textbf{                     }   &                  \\
-\textbf{Max Obs:}                   &     2.495e+04      & \textbf{                     }   &                  \\
+\textbf{Time periods:}              &         7          & \textbf{  Distribution:      }   &   F(7,131899)    \\
+\textbf{Avg Obs:}                   &     1.884e+04      & \textbf{                     }   &                  \\
+\textbf{Min Obs:}                   &     1.529e+04      & \textbf{                     }   &                  \\
+\textbf{Max Obs:}                   &     2.179e+04      & \textbf{                     }   &                  \\
 \textbf{}                           &                    & \textbf{                     }   &                  \\
 \bottomrule
 \end{tabular}
 \begin{tabular}{lcccccc}
                                     & \textbf{Parameter} & \textbf{Std. Err.} & \textbf{T-stat} & \textbf{P-value} & \textbf{Lower CI} & \textbf{Upper CI}  \\
 \midrule
-\textbf{in\_covid}                  &      -0.7997       &       1.8959       &     -0.4218     &      0.6732      &      -4.5156      &       2.9163       \\
-\textbf{in\_covid\_central\_marker} &       5.3421       &       3.6880       &      1.4485     &      0.1475      &      -1.8863      &       12.571       \\
-\textbf{central\_marker}            &       383.15       &       1.3880       &      276.04     &      0.0000      &       380.43      &       385.87       \\
-\textbf{flat\_type.3 room}          &       415.73       &       7.6480       &      54.358     &      0.0000      &       400.74      &       430.72       \\
-\textbf{flat\_type.4 room}          &       783.29       &       7.6320       &      102.63     &      0.0000      &       768.33      &       798.25       \\
-\textbf{flat\_type.5 room}          &       934.74       &       7.6564       &      122.09     &      0.0000      &       919.74      &       949.75       \\
-\textbf{flat\_type.executive}       &       1119.7       &       7.8031       &      143.50     &      0.0000      &       1104.4      &       1135.0       \\
+\textbf{in\_covid}                  &       8.7983       &       2.4265       &      3.6260     &      0.0003      &       4.0425      &       13.554       \\
+\textbf{in\_covid\_central\_marker} &      -24.544       &       5.0758       &     -4.8354     &      0.0000      &      -34.492      &      -14.595       \\
+\textbf{central\_marker}            &       401.63       &       1.6886       &      237.85     &      0.0000      &       398.32      &       404.94       \\
+\textbf{flat\_type.3 room}          &       540.80       &       12.003       &      45.054     &      0.0000      &       517.27      &       564.33       \\
+\textbf{flat\_type.4 room}          &       866.78       &       12.000       &      72.229     &      0.0000      &       843.26      &       890.30       \\
+\textbf{flat\_type.5 room}          &       1008.9       &       12.023       &      83.914     &      0.0000      &       985.37      &       1032.5       \\
+\textbf{flat\_type.executive}       &       1225.2       &       12.166       &      100.71     &      0.0000      &       1201.4      &       1249.1       \\
 \bottomrule
 \end{tabular}
 %\caption{PanelOLS Estimation Summary}
 \end{center}
 
-F-test for Poolability: 8.221e+04 \newline
+F-test for Poolability: 4872.1 \newline
  P-value: 0.0000 \newline
- Distribution: F(8,186322) \newline
+ Distribution: F(6,131899) \newline
   \newline
  Included effects: Time

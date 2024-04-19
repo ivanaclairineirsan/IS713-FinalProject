@@ -1,17 +1,17 @@
 \begin{center}
 \begin{tabular}{lclc}
 \toprule
-\textbf{Dep. Variable:}               &   rental\_price    & \textbf{  R-squared:         }   &      0.5904      \\
-\textbf{Estimator:}                   &      PanelOLS      & \textbf{  R-squared (Between):}  &      0.5940      \\
-\textbf{No. Observations:}            &       192523       & \textbf{  R-squared (Within):}   &      0.1682      \\
-\textbf{Date:}                        &  Fri, Apr 19 2024  & \textbf{  R-squared (Overall):}  &      0.5745      \\
-\textbf{Time:}                        &      15:16:23      & \textbf{  Log-likelihood     }   &    -1.287e+06    \\
+\textbf{Dep. Variable:}               &   rental\_price    & \textbf{  R-squared:         }   &      0.5919      \\
+\textbf{Estimator:}                   &      PanelOLS      & \textbf{  R-squared (Between):}  &      0.5979      \\
+\textbf{No. Observations:}            &       192523       & \textbf{  R-squared (Within):}   &      0.1642      \\
+\textbf{Date:}                        &  Fri, Apr 19 2024  & \textbf{  R-squared (Overall):}  &      0.5783      \\
+\textbf{Time:}                        &      17:09:43      & \textbf{  Log-likelihood     }   &    -1.287e+06    \\
 \textbf{Cov. Estimator:}              &     Unadjusted     & \textbf{                     }   &                  \\
-\textbf{}                             &                    & \textbf{  F-statistic:       }   &    3.965e+04     \\
+\textbf{}                             &                    & \textbf{  F-statistic:       }   &    3.988e+04     \\
 \textbf{Entities:}                    &        503         & \textbf{  P-value            }   &      0.0000      \\
 \textbf{Avg Obs:}                     &       382.75       & \textbf{  Distribution:      }   &   F(7,192507)    \\
 \textbf{Min Obs:}                     &       1.0000       & \textbf{                     }   &                  \\
-\textbf{Max Obs:}                     &       3086.0       & \textbf{  F-statistic (robust):} &    3.965e+04     \\
+\textbf{Max Obs:}                     &       3086.0       & \textbf{  F-statistic (robust):} &    3.988e+04     \\
 \textbf{}                             &                    & \textbf{  P-value            }   &      0.0000      \\
 \textbf{Time periods:}                &         9          & \textbf{  Distribution:      }   &   F(7,192507)    \\
 \textbf{Avg Obs:}                     &     2.139e+04      & \textbf{                     }   &                  \\
@@ -23,19 +23,19 @@
 \begin{tabular}{lcccccc}
                                       & \textbf{Parameter} & \textbf{Std. Err.} & \textbf{T-stat} & \textbf{P-value} & \textbf{Lower CI} & \textbf{Upper CI}  \\
 \midrule
-\textbf{post\_covid}                  &       2.8705       &       2.7682       &      1.0370     &      0.2997      &      -2.5550      &       8.2961       \\
-\textbf{post\_covid\_central\_marker} &      -61.855       &       7.2170       &     -8.5707     &      0.0000      &      -76.000      &      -47.710       \\
-\textbf{central\_marker}              &       384.11       &       1.2859       &      298.72     &      0.0000      &       381.59      &       386.63       \\
-\textbf{flat\_type.3 room}            &       407.99       &       7.4197       &      54.987     &      0.0000      &       393.45      &       422.53       \\
-\textbf{flat\_type.4 room}            &       777.81       &       7.4035       &      105.06     &      0.0000      &       763.30      &       792.32       \\
-\textbf{flat\_type.5 room}            &       929.28       &       7.4277       &      125.11     &      0.0000      &       914.73      &       943.84       \\
-\textbf{flat\_type.executive}         &       1112.5       &       7.5730       &      146.90     &      0.0000      &       1097.7      &       1127.3       \\
+\textbf{post\_covid}                  &       6.9940       &       2.4062       &      2.9067     &      0.0037      &       2.2779      &       11.710       \\
+\textbf{post\_covid\_central\_marker} &      -73.898       &       2.6882       &     -27.489     &      0.0000      &      -79.167      &      -68.629       \\
+\textbf{central\_marker}              &       404.91       &       1.5100       &      268.15     &      0.0000      &       401.95      &       407.87       \\
+\textbf{flat\_type.3 room}            &       413.26       &       7.4094       &      55.775     &      0.0000      &       398.73      &       427.78       \\
+\textbf{flat\_type.4 room}            &       783.10       &       7.3932       &      105.92     &      0.0000      &       768.61      &       797.59       \\
+\textbf{flat\_type.5 room}            &       934.34       &       7.4171       &      125.97     &      0.0000      &       919.80      &       948.88       \\
+\textbf{flat\_type.executive}         &       1118.2       &       7.5627       &      147.85     &      0.0000      &       1103.3      &       1133.0       \\
 \bottomrule
 \end{tabular}
 %\caption{PanelOLS Estimation Summary}
 \end{center}
 
-F-test for Poolability: 8.972e+04 \newline
+F-test for Poolability: 3.613e+04 \newline
  P-value: 0.0000 \newline
  Distribution: F(8,192507) \newline
   \newline

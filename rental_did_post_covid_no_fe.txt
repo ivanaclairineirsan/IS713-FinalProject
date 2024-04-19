@@ -1,30 +1,30 @@
                             OLS Regression Results                            
 ==============================================================================
-Dep. Variable:           rental_price   R-squared:                       0.222
-Model:                            OLS   Adj. R-squared:                  0.222
-Method:                 Least Squares   F-statistic:                     7860.
+Dep. Variable:           rental_price   R-squared:                       0.590
+Model:                            OLS   Adj. R-squared:                  0.590
+Method:                 Least Squares   F-statistic:                 3.958e+04
 Date:                Fri, 19 Apr 2024   Prob (F-statistic):               0.00
-Time:                        15:16:22   Log-Likelihood:            -1.4370e+06
-No. Observations:              192523   AIC:                         2.874e+06
-Df Residuals:                  192515   BIC:                         2.874e+06
+Time:                        17:09:42   Log-Likelihood:            -1.3754e+06
+No. Observations:              192523   AIC:                         2.751e+06
+Df Residuals:                  192515   BIC:                         2.751e+06
 Df Model:                           7                                         
 Covariance Type:            nonrobust                                         
 =============================================================================================
                                 coef    std err          t      P>|t|      [0.025      0.975]
 ---------------------------------------------------------------------------------------------
-Intercept                  1767.6592     16.038    110.216      0.000    1736.225    1799.093
-flat_type[T.3 room]          73.4592     16.107      4.561      0.000      41.890     105.028
-flat_type[T.4 room]         441.9311     16.072     27.498      0.000     410.431     473.431
-flat_type[T.5 room]         576.1922     16.121     35.741      0.000     544.595     607.790
-flat_type[T.executive]      724.1367     16.433     44.066      0.000     691.928     756.345
-post_covid                  320.5072      5.885     54.460      0.000     308.972     332.042
-central_marker              359.6297      2.795    128.681      0.000     354.152     365.107
-post_covid:central_marker   -59.6350     15.693     -3.800      0.000     -90.393     -28.877
+Intercept                  1395.9152     11.688    119.431      0.000    1373.007    1418.824
+flat_type[T.3 room]         249.9056     11.706     21.348      0.000     226.962     272.849
+flat_type[T.4 room]         613.1153     11.680     52.493      0.000     590.223     636.008
+flat_type[T.5 room]         752.8516     11.716     64.258      0.000     729.888     775.815
+flat_type[T.executive]      929.5629     11.946     77.815      0.000     906.149     952.976
+post_covid                  650.0309      1.630    398.676      0.000     646.835     653.227
+central_marker              398.6579      2.387    166.984      0.000     393.979     403.337
+post_covid:central_marker   -96.0317      4.251    -22.592      0.000    -104.363     -87.700
 ==============================================================================
-Omnibus:                    74714.600   Durbin-Watson:                   0.004
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):           473645.333
-Skew:                           1.743   Prob(JB):                         0.00
-Kurtosis:                       9.848   Cond. No.                         43.3
+Omnibus:                   107308.587   Durbin-Watson:                   0.008
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          5730741.040
+Skew:                           1.955   Prob(JB):                         0.00
+Kurtosis:                      29.441   Cond. No.                         45.3
 ==============================================================================
 
 Notes:
