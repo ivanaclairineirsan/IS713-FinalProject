@@ -1,31 +1,42 @@
-                            OLS Regression Results                            
-==============================================================================
-Dep. Variable:           rental_price   R-squared:                       0.222
-Model:                            OLS   Adj. R-squared:                  0.222
-Method:                 Least Squares   F-statistic:                     7860.
-Date:                Fri, 19 Apr 2024   Prob (F-statistic):               0.00
-Time:                        10:53:45   Log-Likelihood:            -1.4370e+06
-No. Observations:              192523   AIC:                         2.874e+06
-Df Residuals:                  192515   BIC:                         2.874e+06
-Df Model:                           7                                         
-Covariance Type:            nonrobust                                         
-=============================================================================================
-                                coef    std err          t      P>|t|      [0.025      0.975]
----------------------------------------------------------------------------------------------
-Intercept                  1767.6592     16.038    110.216      0.000    1736.225    1799.093
-flat_type[T.3 room]          73.4592     16.107      4.561      0.000      41.890     105.028
-flat_type[T.4 room]         441.9311     16.072     27.498      0.000     410.431     473.431
-flat_type[T.5 room]         576.1922     16.121     35.741      0.000     544.595     607.790
-flat_type[T.executive]      724.1367     16.433     44.066      0.000     691.928     756.345
-post_covid                  320.5072      5.885     54.460      0.000     308.972     332.042
-central_marker              359.6297      2.795    128.681      0.000     354.152     365.107
-post_covid:central_marker   -59.6350     15.693     -3.800      0.000     -90.393     -28.877
-==============================================================================
-Omnibus:                    74714.600   Durbin-Watson:                   0.004
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):           473645.333
-Skew:                           1.743   Prob(JB):                         0.00
-Kurtosis:                       9.848   Cond. No.                         43.3
-==============================================================================
+\begin{center}
+\begin{tabular}{lclc}
+\toprule
+\textbf{Dep. Variable:}               &   rental\_price    & \textbf{  R-squared:         }   &      0.5904      \\
+\textbf{Estimator:}                   &      PanelOLS      & \textbf{  R-squared (Between):}  &      0.5940      \\
+\textbf{No. Observations:}            &       192523       & \textbf{  R-squared (Within):}   &      0.1682      \\
+\textbf{Date:}                        &  Fri, Apr 19 2024  & \textbf{  R-squared (Overall):}  &      0.5745      \\
+\textbf{Time:}                        &      15:16:23      & \textbf{  Log-likelihood     }   &    -1.287e+06    \\
+\textbf{Cov. Estimator:}              &     Unadjusted     & \textbf{                     }   &                  \\
+\textbf{}                             &                    & \textbf{  F-statistic:       }   &    3.965e+04     \\
+\textbf{Entities:}                    &        503         & \textbf{  P-value            }   &      0.0000      \\
+\textbf{Avg Obs:}                     &       382.75       & \textbf{  Distribution:      }   &   F(7,192507)    \\
+\textbf{Min Obs:}                     &       1.0000       & \textbf{                     }   &                  \\
+\textbf{Max Obs:}                     &       3086.0       & \textbf{  F-statistic (robust):} &    3.965e+04     \\
+\textbf{}                             &                    & \textbf{  P-value            }   &      0.0000      \\
+\textbf{Time periods:}                &         9          & \textbf{  Distribution:      }   &   F(7,192507)    \\
+\textbf{Avg Obs:}                     &     2.139e+04      & \textbf{                     }   &                  \\
+\textbf{Min Obs:}                     &     1.678e+04      & \textbf{                     }   &                  \\
+\textbf{Max Obs:}                     &     2.718e+04      & \textbf{                     }   &                  \\
+\textbf{}                             &                    & \textbf{                     }   &                  \\
+\bottomrule
+\end{tabular}
+\begin{tabular}{lcccccc}
+                                      & \textbf{Parameter} & \textbf{Std. Err.} & \textbf{T-stat} & \textbf{P-value} & \textbf{Lower CI} & \textbf{Upper CI}  \\
+\midrule
+\textbf{post\_covid}                  &       2.8705       &       2.7682       &      1.0370     &      0.2997      &      -2.5550      &       8.2961       \\
+\textbf{post\_covid\_central\_marker} &      -61.855       &       7.2170       &     -8.5707     &      0.0000      &      -76.000      &      -47.710       \\
+\textbf{central\_marker}              &       384.11       &       1.2859       &      298.72     &      0.0000      &       381.59      &       386.63       \\
+\textbf{flat\_type.3 room}            &       407.99       &       7.4197       &      54.987     &      0.0000      &       393.45      &       422.53       \\
+\textbf{flat\_type.4 room}            &       777.81       &       7.4035       &      105.06     &      0.0000      &       763.30      &       792.32       \\
+\textbf{flat\_type.5 room}            &       929.28       &       7.4277       &      125.11     &      0.0000      &       914.73      &       943.84       \\
+\textbf{flat\_type.executive}         &       1112.5       &       7.5730       &      146.90     &      0.0000      &       1097.7      &       1127.3       \\
+\bottomrule
+\end{tabular}
+%\caption{PanelOLS Estimation Summary}
+\end{center}
 
-Notes:
-[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+F-test for Poolability: 8.972e+04 \newline
+ P-value: 0.0000 \newline
+ Distribution: F(8,192507) \newline
+  \newline
+ Included effects: Time

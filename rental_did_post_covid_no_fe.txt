@@ -4,7 +4,7 @@ Dep. Variable:           rental_price   R-squared:                       0.222
 Model:                            OLS   Adj. R-squared:                  0.222
 Method:                 Least Squares   F-statistic:                     7860.
 Date:                Fri, 19 Apr 2024   Prob (F-statistic):               0.00
-Time:                        10:53:44   Log-Likelihood:            -1.4370e+06
+Time:                        15:16:22   Log-Likelihood:            -1.4370e+06
 No. Observations:              192523   AIC:                         2.874e+06
 Df Residuals:                  192515   BIC:                         2.874e+06
 Df Model:                           7                                         

@@ -1,31 +1,42 @@
-                            OLS Regression Results                            
-==============================================================================
-Dep. Variable:           rental_price   R-squared:                       0.235
-Model:                            OLS   Adj. R-squared:                  0.235
-Method:                 Least Squares   F-statistic:                     8168.
-Date:                Fri, 19 Apr 2024   Prob (F-statistic):               0.00
-Time:                        10:27:35   Log-Likelihood:            -1.3879e+06
-No. Observations:              186338   AIC:                         2.776e+06
-Df Residuals:                  186330   BIC:                         2.776e+06
-Df Model:                           7                                         
-Covariance Type:            nonrobust                                         
-===========================================================================================
-                              coef    std err          t      P>|t|      [0.025      0.975]
--------------------------------------------------------------------------------------------
-Intercept                1771.8578     16.183    109.488      0.000    1740.139    1803.576
-flat_type[T.3 room]        96.3489     16.251      5.929      0.000      64.497     128.201
-flat_type[T.4 room]       465.1809     16.218     28.683      0.000     433.395     496.967
-flat_type[T.5 room]       601.4433     16.267     36.973      0.000     569.560     633.327
-flat_type[T.executive]    750.6842     16.575     45.290      0.000     718.198     783.171
-in_covid                 -205.5252      3.037    -67.680      0.000    -211.477    -199.573
-central_marker            356.7665      2.953    120.823      0.000     350.979     362.554
-in_covid:central_marker    25.8525      7.847      3.294      0.001      10.472      41.233
-==============================================================================
-Omnibus:                    75823.464   Durbin-Watson:                   0.003
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):           595703.776
-Skew:                           1.766   Prob(JB):                         0.00
-Kurtosis:                      11.015   Cond. No.                         44.0
-==============================================================================
+\begin{center}
+\begin{tabular}{lclc}
+\toprule
+\textbf{Dep. Variable:}             &   rental\_price    & \textbf{  R-squared:         }   &      0.5874      \\
+\textbf{Estimator:}                 &      PanelOLS      & \textbf{  R-squared (Between):}  &      0.5992      \\
+\textbf{No. Observations:}          &       186338       & \textbf{  R-squared (Within):}   &      0.1727      \\
+\textbf{Date:}                      &  Fri, Apr 19 2024  & \textbf{  R-squared (Overall):}  &      0.5803      \\
+\textbf{Time:}                      &      14:42:03      & \textbf{  Log-likelihood     }   &    -1.247e+06    \\
+\textbf{Cov. Estimator:}            &     Unadjusted     & \textbf{                     }   &                  \\
+\textbf{}                           &                    & \textbf{  F-statistic:       }   &     3.79e+04     \\
+\textbf{Entities:}                  &        503         & \textbf{  P-value            }   &      0.0000      \\
+\textbf{Avg Obs:}                   &       370.45       & \textbf{  Distribution:      }   &   F(7,186322)    \\
+\textbf{Min Obs:}                   &       1.0000       & \textbf{                     }   &                  \\
+\textbf{Max Obs:}                   &       2984.0       & \textbf{  F-statistic (robust):} &     3.79e+04     \\
+\textbf{}                           &                    & \textbf{  P-value            }   &      0.0000      \\
+\textbf{Time periods:}              &         9          & \textbf{  Distribution:      }   &   F(7,186322)    \\
+\textbf{Avg Obs:}                   &      2.07e+04      & \textbf{                     }   &                  \\
+\textbf{Min Obs:}                   &     1.678e+04      & \textbf{                     }   &                  \\
+\textbf{Max Obs:}                   &     2.495e+04      & \textbf{                     }   &                  \\
+\textbf{}                           &                    & \textbf{                     }   &                  \\
+\bottomrule
+\end{tabular}
+\begin{tabular}{lcccccc}
+                                    & \textbf{Parameter} & \textbf{Std. Err.} & \textbf{T-stat} & \textbf{P-value} & \textbf{Lower CI} & \textbf{Upper CI}  \\
+\midrule
+\textbf{in\_covid}                  &      -0.7997       &       1.8959       &     -0.4218     &      0.6732      &      -4.5156      &       2.9163       \\
+\textbf{in\_covid\_central\_marker} &       5.3421       &       3.6880       &      1.4485     &      0.1475      &      -1.8863      &       12.571       \\
+\textbf{central\_marker}            &       383.15       &       1.3880       &      276.04     &      0.0000      &       380.43      &       385.87       \\
+\textbf{flat\_type.3 room}          &       415.73       &       7.6480       &      54.358     &      0.0000      &       400.74      &       430.72       \\
+\textbf{flat\_type.4 room}          &       783.29       &       7.6320       &      102.63     &      0.0000      &       768.33      &       798.25       \\
+\textbf{flat\_type.5 room}          &       934.74       &       7.6564       &      122.09     &      0.0000      &       919.74      &       949.75       \\
+\textbf{flat\_type.executive}       &       1119.7       &       7.8031       &      143.50     &      0.0000      &       1104.4      &       1135.0       \\
+\bottomrule
+\end{tabular}
+%\caption{PanelOLS Estimation Summary}
+\end{center}
 
-Notes:
-[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+F-test for Poolability: 8.221e+04 \newline
+ P-value: 0.0000 \newline
+ Distribution: F(8,186322) \newline
+  \newline
+ Included effects: Time
